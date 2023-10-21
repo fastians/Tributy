@@ -3,26 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>Document</title>
+    <link rel="icon" href="pictures/new-logo.png" type="image/x-icon">
+    <title>Tributify</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- ---------------------------Navbar------------------------------ -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed; top: 0; width: 100%; z-index: 1;">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light"
+      style="position: fixed; top: 0; width: 100%; z-index: 50"
+    >
       <div class="container">
-        <img src="pictures/logo.webp" width="40px" height="30px" />
-        <a class="navbar-brand fw-bold" href="#">Tributy</a>
+        <img src="pictures/new-logo.png" width="40px" height="30px" />
+        <a class="navbar-brand fw-bold" href="#">Tributify</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -48,7 +51,11 @@
             </li>
           </ul>
           <div class="d-flex">
-            <button class="btn btn-outline-primary" type="submit">
+            <button
+              class="btn btn-outline text-white"
+              style="background-color: #a95d46"
+              type="submit"
+            >
               Add Whishlist
             </button>
           </div>
@@ -56,7 +63,7 @@
       </div>
     </nav>
     <!-- ---------------------------------Head Section -------------------------------- -->
-    <div class="container-fluid col-12 bg-primary">
+    <div class="container-fluid col-12" style="background-color: #a95d46">
       <div class="container d-flex flex-column flex-md-row">
         <div class="text-white" style="margin-top: 15%">
           <h3>The all-in-one wishlist for creators</h3>
@@ -64,10 +71,83 @@
             Let your fans send you funds for gifts, adopt your bills, send you
             tips, & more - all in one place! 🎁💸
           </p>
-          <button class="btn btn-light">Create You free Whishlist</button>
+          <button
+            class="btn text-white btn-outline-light"
+            style="background-color: #a95d46"
+          >
+            Create Your free Whishlist
+          </button>
         </div>
 
-        <div class="d-flex col-12 col-md-6 justify-content-between pt-5 pb-5" style="margin-top: 5%;">
+        <!-- <div class="d-flex flex-wrap justify-content-between pt-5 pb-5">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card" style="width: 100%">
+              <img
+                src="pictures/Netflix-Symbol.png"
+                class="card-img-top"
+                alt="..."
+                height="150px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Netflix</h5>
+                <p class="card-text">$15.00 /month</p>
+                <a
+                  href="#"
+                  class="btn text-light"
+                  style="background-color: #a95d46"
+                  >Adopt Bill</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card" style="width: 100%">
+              <img
+                src="pictures/Netflix-Symbol.png"
+                class="card-img-top"
+                alt="..."
+                height="150px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Netflix</h5>
+                <p class="card-text">$15.00 /month</p>
+                <a
+                  href="#"
+                  class="btn text-light"
+                  style="background-color: #a95d46"
+                  >Buy Gift</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card" style="width: 100%">
+              <img
+                src="pictures/Netflix-Symbol.png"
+                class="card-img-top"
+                alt="..."
+                height="150px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Netflix</h5>
+                <p class="card-text">$15.00 /month</p>
+                <a
+                  href="#"
+                  class="btn text-light"
+                  style="background-color: #a95d46"
+                  >Buy Gift</a
+                >
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <div
+          class="d-flex col-12 col-md-6 justify-content-between pt-5 pb-5"
+          style="margin-top: 5%"
+        >
           <div class="card mt-5" style="width: 13rem">
             <img
               src="pictures/Netflix-Symbol.png"
@@ -76,37 +156,52 @@
               height="150px"
             />
             <div class="card-body">
-              <h5 class="card-title">NetFlix</h5>
-              <p class="card-text">$15.00 /month</p>
-              <a href="#" class="btn btn-dark">Adopt Bill</a>
+              <h5 class="card-title">Netflix</h5>
+              <p class="card-text">$15.00 USD/month</p>
+              <a
+                href="#"
+                class="btn text-light"
+                style="background-color: #a95d46"
+                >Adopt Bill</a
+              >
             </div>
           </div>
 
           <div class="card mb-5" style="width: 13rem">
             <img
-              src="pictures/Netflix-Symbol.png"
+              src="pictures/coffee.jpg"
               class="card-img-top"
               alt="..."
               height="150px"
             />
             <div class="card-body">
-              <h5 class="card-title">NetFlix</h5>
-              <p class="card-text">$15.00 /month</p>
-              <a href="#" class="btn btn-dark">Buy Gift</a>
+              <h5 class="card-title">Coffee</h5>
+              <p class="card-text">$8.00 USD</p>
+              <a
+                href="#"
+                class="btn text-light"
+                style="background-color: #a95d46"
+                >Buy Gift</a
+              >
             </div>
           </div>
 
           <div class="card mt-3 mb-3" style="width: 13rem">
             <img
-              src="pictures/Netflix-Symbol.png"
+              src="pictures/shoes.jpg"
               class="card-img-top"
               alt="..."
               height="150px"
             />
             <div class="card-body">
-              <h5 class="card-title">NetFlix</h5>
-              <p class="card-text">$15.00 /month</p>
-              <a href="#" class="btn btn-dark">Buy Gift</a>
+              <h5 class="card-title">New shoes</h5>
+              <p class="card-text">$40.00 USD</p>
+              <a
+                href="#"
+                class="btn text-light"
+                style="background-color: #a95d46"
+                >Buy Gift</a
+              >
             </div>
           </div>
         </div>
@@ -131,8 +226,8 @@
               aria-controls="collapseOne"
             >
               <i
-                class="fa fa-check-square-o text-primary"
-                style="font-size: 18px; margin-right: 5px"
+                class="fa fa-check-square-o"
+                style="font-size: 18px; margin-right: 5px; color: #a95d46"
               ></i>
               Gifts
             </button>
@@ -163,8 +258,8 @@
               aria-controls="collapseTwo"
             >
               <i
-                class="fa fa-check-square-o text-primary"
-                style="font-size: 18px; margin-right: 5px"
+                class="fa fa-check-square-o"
+                style="font-size: 18px; margin-right: 5px; color: #a95d46"
               ></i>
               Reimbursements
             </button>
@@ -196,8 +291,8 @@
               aria-controls="collapseThree"
             >
               <i
-                class="fa fa-check-square-o text-primary"
-                style="font-size: 18px; margin-right: 5px"
+                class="fa fa-check-square-o"
+                style="font-size: 18px; margin-right: 5px; color: #a95d46"
               ></i>
               Adopt-A-Bill
             </button>
@@ -229,8 +324,8 @@
               aria-controls="collapseFour"
             >
               <i
-                class="fa fa-check-square-o text-primary"
-                style="font-size: 18px; margin-right: 5px"
+                class="fa fa-check-square-o"
+                style="font-size: 18px; margin-right: 5px; color: #a95d46"
               ></i>
               Tips
             </button>
@@ -257,7 +352,7 @@
     <div class="container mt-4">
       <div class="d-flex justify-content-center">
         <h3 class="fw-bold">
-          WHY <span class="text-primary"> CREATORS </span>
+          WHY <span style="color: #a95d46"> CREATORS </span>
           <i class="fa fa-heart" style="font-size: 24px; color: red"></i> US
         </h3>
       </div>
@@ -380,8 +475,18 @@
         <p>Share your wishlist anywhere!</p>
       </div>
       <div class="d-flex justify-content-evenly flex-wrap">
-        <img src="pictures/twitter.webp" alt="Twitter" width="100px" height="100px" />
-        <img src="pictures/tik-tok.png" alt="TikTok" width="100px" height="100px" />
+        <img
+          src="pictures/twitter.webp"
+          alt="Twitter"
+          width="100px"
+          height="100px"
+        />
+        <img
+          src="pictures/tik-tok.png"
+          alt="TikTok"
+          width="100px"
+          height="100px"
+        />
         <img src="pictures/twitch.webp" alt="$$" width="100px" height="100px" />
         <img
           src="pictures/instagram.webp"
@@ -389,8 +494,18 @@
           width="100px"
           height="100px"
         />
-        <img src="pictures/youtube.webp" alt="Youtube" width="100px" height="100px" />
-        <img src="pictures/facebook.webp" alt="facebook" width="100px" height="100px" />
+        <img
+          src="pictures/youtube.webp"
+          alt="Youtube"
+          width="100px"
+          height="100px"
+        />
+        <img
+          src="pictures/facebook.webp"
+          alt="facebook"
+          width="100px"
+          height="100px"
+        />
       </div>
     </div>
 
@@ -404,7 +519,12 @@
           Join the 2000+ creators who are making it easy, safe, & fun for their
           fans to support them! 🥳
         </p>
-        <button class="btn btn-light">Create Your Free Wishlist</button>
+        <button
+          class="btn text-white btn-outline-light"
+          style="background-color: #a95d46"
+        >
+          Create Your free Whishlist
+        </button>
       </div>
     </div>
 
@@ -433,10 +553,15 @@
               data-bs-parent="#accordionExample3"
             >
               <div class="accordion-body">
-                For Creators: • Create your free wishlist • Connect your Stripe
-                account • Add items to your wishlist • Share your wishlist with
-                fans For Fans • Open a creator's wishlist • Select a gift you
-                want to buy • Checkout securely via Stripe
+                <strong>For Creators:</strong> <br />
+                • Create your free wishlist <br />
+                • Connect your Stripe account <br />
+                • Add items to your wishlist <br />
+                • Share your wishlist with fans <br /><br />
+                <strong>For Fans</strong> <br />
+                • Open a creator's wishlist <br />
+                • Select a gift you want to buy <br />
+                • Checkout securely via Stripe
               </div>
             </div>
           </div>
@@ -461,28 +586,30 @@
             >
               <div class="accordion-body">
                 Fans in any country around the globe can make purchases from any
-                creator's wishlist. However, only creators from the following
-                countries are able to create a wishlist: Albania, Algeria,
-                Angola, Antigua & Barbuda, Argentina, Armenia, Australia,
-                Austria, Azerbeijan, Bahamas, Bahrain, Belgium, Benin, Bhutan,
-                Bolivia, Bosnia and Herzegovina, Botswana, Brunei, Bulgaria,
-                Cambodia, Canada, Chile, Colombia, Costa Rica, Côte d'Ivoire,
-                Croatia, Cyprus, Czech Republic, Denmark, Dominican Republic,
-                Ecuador, Egypt, El Salvador, Estonia, Ethiopia, Finland, France,
-                Gabon, Gambia, Germany, Ghana, Greece, Guatemala, Guyana, Hong
-                Kong, Hungary, Iceland, Indonesia, Ireland, Israel, Italy,
-                Jamaica, Jordan, Kazakhstan, Kenya, Kuwait, Laos, Latvia,
-                Liechtenstein, Lithuania, Luxembourg, Macao, Madagascar,
-                Malaysia, Malta, Mauritius, Mexico, Moldova, Monaco, Mongolia,
-                Morocco, Mozambique, Namibia, Netherlands, New Zealand, Niger,
-                Nigeria, North Macedonia, Norway, Oman, Pakistan, Panama,
-                Paraguay, Peru, Poland, Portugal, Qatar, Romania, Rwanda, San
-                Marino, Saudi Arabia, Senegal, Singapore, Slovakia, Slovenia,
-                South Africa, South Korea, Spain, Sri Lanka, St. Lucia, Sweden,
-                Switzerland, Taiwan, Tanzania, Thailand, Trinidad & Tobago,
-                Tunisia, Turkey, United Arab Emirates, United Kingdom, United
-                States, Uruguay, Uzbekistan, Vietnam We are always working to
-                add more countries to this list.
+                creator's wishlist. <br /><br />
+                However, only creators from the following countries are able to
+                create a wishlist: <br /><br />
+                Albania, Algeria, Angola, Antigua & Barbuda, Argentina, Armenia,
+                Australia, Austria, Azerbeijan, Bahamas, Bahrain, Belgium,
+                Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana,
+                Brunei, Bulgaria, Cambodia, Canada, Chile, Colombia, Costa Rica,
+                Côte d'Ivoire, Croatia, Cyprus, Czech Republic, Denmark,
+                Dominican Republic, Ecuador, Egypt, El Salvador, Estonia,
+                Ethiopia, Finland, France, Gabon, Gambia, Germany, Ghana,
+                Greece, Guatemala, Guyana, Hong Kong, Hungary, Iceland,
+                Indonesia, Ireland, Israel, Italy, Jamaica, Jordan, Kazakhstan,
+                Kenya, Kuwait, Laos, Latvia, Liechtenstein, Lithuania,
+                Luxembourg, Macao, Madagascar, Malaysia, Malta, Mauritius,
+                Mexico, Moldova, Monaco, Mongolia, Morocco, Mozambique, Namibia,
+                Netherlands, New Zealand, Niger, Nigeria, North Macedonia,
+                Norway, Oman, Pakistan, Panama, Paraguay, Peru, Poland,
+                Portugal, Qatar, Romania, Rwanda, San Marino, Saudi Arabia,
+                Senegal, Singapore, Slovakia, Slovenia, South Africa, South
+                Korea, Spain, Sri Lanka, St. Lucia, Sweden, Switzerland, Taiwan,
+                Tanzania, Thailand, Trinidad & Tobago, Tunisia, Turkey, United
+                Arab Emirates, United Kingdom, United States, Uruguay,
+                Uzbekistan, Vietnam <br /><br />
+                We are always working to add more countries to this list.
               </div>
             </div>
           </div>
@@ -533,11 +660,13 @@
             >
               <div class="accordion-body">
                 We allow any item that isn't illegal. As long as a gift doesn't
-                promise any services in return, it's most likely allowed. We do,
-                however, want to provide tips for our creators to make sure that
-                Stripe doesn't close their account: • Don't promise any services
-                in exchange for purchases • Don't include any nudity in item
-                photos • Don't include any explicit text in item titles
+                promise any services in return, it's most likely allowed.
+                <br /><br />
+                We do, however, want to provide tips for our creators to make
+                sure that Stripe doesn't close their account: <br /><br />
+                • Don't promise any services in exchange for purchases <br />
+                • Don't include any nudity in item photos <br />
+                • Don't include any explicit text in item titles
               </div>
             </div>
           </div>
@@ -564,8 +693,8 @@
                 Creators can add bills with a daily, weekly, monthly, or yearly
                 recurrence. When a fan adopts a bill, they will continue to be
                 automatically charged for it based on that bills recurrence
-                until they cancel it - which can easily be done via the billing
-                portal.
+                until they cancel it - which can easily be done via the
+                <a href="#"> billing portal </a>.
               </div>
             </div>
           </div>
@@ -675,13 +804,92 @@
             >
               <div class="accordion-body">
                 Fans can easily cancel any adopted bill or recurring tip by
-                visiting the billing portal.
+                visiting the <a href="#">billing portal</a>.
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!--------------------------We are proud to say that we are---------------------------->
+    <div
+      class="container text-white mt-5"
+      style="padding: 2.5% 0; border-radius: 20px; background-color: #a95d46"
+    >
+      <div class="text-center">
+        <p>
+          We are proud to say that we are an all-inclusive platform, and openly
+          support creators working in the adult industry! ✨
+        </p>
+        <button
+          class="btn text-white btn-outline-light"
+          style="background-color: #a95d46"
+        >
+          Create Your free Whishlist
+        </button>
+      </div>
+    </div>
+
+    <!-- -------------------------Footter------------------------------ -->
+    <footer class="section bg-footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3">
+                  <div class="">
+                      <h6 class="footer-heading text-uppercase text-white">Information</h6>
+                      <ul class="list-unstyled footer-link mt-4">
+                          <li><a href="">Pages</a></li>
+                          <li><a href="">Our Team</a></li>
+                          <li><a href="">Pricing</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="">
+                      <h6 class="footer-heading text-uppercase text-white">Useful Links</h6>
+                      <ul class="list-unstyled footer-link mt-4">
+                          <li><a href="">Creater Login </a></li>
+                          <li><a href="">Billing Portal</a></li>
+                          <li><a href="">Discord Bot</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="">
+                      <h6 class="footer-heading text-uppercase text-white">Other Links</h6>
+                      <ul class="list-unstyled footer-link mt-4">
+                          <li><a href="">Privacy Policy </a></li>
+                          <li><a href="">Terms of services</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="">
+                      <h6 class="footer-heading text-uppercase text-white">Connect With Us</h6>
+                      <p class="contact-info mt-4">Follow us on Twitter</p>
+                      <p class="contact-info">support@tributify.com</p>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+
+      <div class="text-center mt-5">
+          <p class="footer-alt mb-0 f-14">2023 © Tributify, LLC, Made with lots of <i class="fa fa-heart" style="font-size: 14px;margin-left: 5px; color: red"></i></p>
+      </div>
+  </footer>
+  <!-- ---------------------Scripts------------------------------- -->
+    <script>
+      const accordionItems = document.querySelectorAll(".accordion-item");
+      accordionItems.forEach((item) => {
+        item.addEventListener("show.bs.collapse", () => {
+          item.classList.add("opened");
+        });
+        item.addEventListener("hidden.bs.collapse", () => {
+          item.classList.remove("opened");
+        });
+      });
+    </script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
