@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- ---------------------------Navbar------------------------------ -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed; top: 0; width: 100%; z-index: 1;">
+      <div class="container">
+        <img src="logo.webp" width="40px" height="30px" />
+        <a class="navbar-brand fw-bold" href="#">Tributy</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Billing Portal</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Creater Login</a
+              >
+            </li>
+          </ul>
+          <div class="d-flex">
+            <button class="btn btn-outline-primary" type="submit">
+              Add Whishlist
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ---------------------------------Head Section -------------------------------- -->
+    <div class="container-fluid col-12 bg-primary">
+      <div class="container d-flex flex-column flex-md-row">
+        <div class="text-white" style="margin-top: 15%">
+          <h3>The all-in-one wishlist for creators</h3>
+          <p class="">
+            Let your fans send you funds for gifts, adopt your bills, send you
+            tips, & more - all in one place! 🎁💸
+          </p>
+          <button class="btn btn-light">Create You free Whishlist</button>
+        </div>
+
+        <div class="d-flex col-12 col-md-6 justify-content-between pt-5 pb-5" style="margin-top: 5%;">
+          <div class="card mt-5" style="width: 13rem">
+            <img
+              src="Netflix-Symbol.png"
+              class="card-img-top"
+              alt="..."
+              height="150px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">NetFlix</h5>
+              <p class="card-text">$15.00 /month</p>
+              <a href="#" class="btn btn-dark">Adopt Bill</a>
+            </div>
+          </div>
+
+          <div class="card mb-5" style="width: 13rem">
+            <img
+              src="Netflix-Symbol.png"
+              class="card-img-top"
+              alt="..."
+              height="150px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">NetFlix</h5>
+              <p class="card-text">$15.00 /month</p>
+              <a href="#" class="btn btn-dark">Buy Gift</a>
+            </div>
+          </div>
+
+          <div class="card mt-3 mb-3" style="width: 13rem">
+            <img
+              src="Netflix-Symbol.png"
+              class="card-img-top"
+              alt="..."
+              height="150px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">NetFlix</h5>
+              <p class="card-text">$15.00 /month</p>
+              <a href="#" class="btn btn-dark">Buy Gift</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------------------WISHLIST FEATURES------------------------------------- -->
+    <div class="container mt-4">
+      <div class="d-flex justify-content-center">
+        <h3 class="fw-bold">WISHLIST FEATURES</h3>
+      </div>
+
+      <div class="accordion" id="accordionExample2">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+            >
+              <i
+                class="fa fa-check-square-o text-primary"
+                style="font-size: 18px; margin-right: 5px"
+              ></i>
+              Gifts
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample2"
+          >
+            <div class="accordion-body">
+              Create custom gifts and let your fans send the funds for them! You
+              can add things such as a new phone, a new computer, or a new
+              handbag - but you can also get creative and let your fans fund
+              other things such as a spa day, a shopping spree, or a night out -
+              almost anything you can think of! 🎁
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              <i
+                class="fa fa-check-square-o text-primary"
+                style="font-size: 18px; margin-right: 5px"
+              ></i>
+              Reimbursements
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample2"
+          >
+            <div class="accordion-body">
+              Already bought or paid for something, but want your fans to
+              reimburse it? Create a gift and mark it as a reimbursement! Gifts
+              marked as reimbursements will have a reimbursement label on them,
+              making them easily distinguishable on your wishlist! Reimbursement
+              gifts are removed from your wishlist as soon as they are
+              purchased.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              <i
+                class="fa fa-check-square-o text-primary"
+                style="font-size: 18px; margin-right: 5px"
+              ></i>
+              Adopt-A-Bill
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample2"
+          >
+            <div class="accordion-body">
+              Let your fans adopt your bills on an automatic subscription basis!
+              You can add bills with daily, weekly, monthly, or yearly
+              recurrences! Once a fan adopts a bill, they will continue to be
+              automatically charged for it based on the recurrence of that bill
+              until they cancel it! 💸
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              <i
+                class="fa fa-check-square-o text-primary"
+                style="font-size: 18px; margin-right: 5px"
+              ></i>
+              Tips
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample2"
+          >
+            <div class="accordion-body">
+              Let your fans send you custom one-time or recurring tips! Fans who
+              want to send a recurring tip can choose a daily, weekly, monthly,
+              or yearly recurrence - and they'll be charged for the tip
+              automatically based on the recurrence they choose until they
+              cancel it! 💸
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------WHY CREATORS  US------------------ -->
+    <div class="container mt-4">
+      <div class="d-flex justify-content-center">
+        <h3 class="fw-bold">
+          WHY <span class="text-primary"> CREATORS </span>
+          <i class="fa fa-heart" style="font-size: 24px; color: red"></i> US
+        </h3>
+      </div>
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="true"
+              aria-controls="collapseFive"
+            >
+              🔒 Total Privacy and Safety
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Privacy is and always will be our top priority. The information of
+              both creators and fans will stay private, since all payments on
+              our platform are processed securely through Stripe. We also do our
+              best to protect all creators on our platform from fraud &
+              chargebacks!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="false"
+              aria-controls="collapseSix"
+            >
+              💸 Get Paid out instantly
+            </button>
+          </h2>
+          <div
+            id="collapseSix"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingSix"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Every time a purchase is made from a creator's wishlist, the funds
+              are instantly sent to the creator's connected Stripe account.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSeven">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSeven"
+              aria-expanded="false"
+              aria-controls="collapseSeven"
+            >
+              💰 Receive 100% of funds*
+            </button>
+          </h2>
+          <div
+            id="collapseSeven"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingSeven"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Creators on our platform receive 100% of the funds for any
+              purchases made from their wishlist.
+              <br />
+              *currency conversion may reduce payout.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEight">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseEight"
+              aria-expanded="false"
+              aria-controls="collapseEight"
+            >
+              💸 Spend how you want
+            </button>
+          </h2>
+          <div
+            id="collapseEight"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingEight"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Creators can use the funds however they want! They don't need to
+              be used for what they were sent for.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------------MADE FOR ANY PLATFORM-------------------- -->
+
+    <div class="container mt-4">
+      <div class="d-flex flex-column align-items-center justify-content-center">
+        <h5>MADE FOR ANY PLATFORM</h5>
+        <p>Share your wishlist anywhere!</p>
+      </div>
+      <div class="d-flex justify-content-evenly flex-wrap">
+        <img src="twitter.webp" alt="Twitter" width="100px" height="100px" />
+        <img src="tik-tok.png" alt="TikTok" width="100px" height="100px" />
+        <img src="twitch.webp" alt="$$" width="100px" height="100px" />
+        <img
+          src="instagram.webp"
+          alt="Instagram"
+          width="100px"
+          height="100px"
+        />
+        <img src="youtube.webp" alt="Youtube" width="100px" height="100px" />
+        <img src="facebook.webp" alt="facebook" width="100px" height="100px" />
+      </div>
+    </div>
+
+    <!--------------------------Join the 2000+ creators---------------------------->
+    <div
+      class="container text-white bg-dark mt-5"
+      style="padding: 2.5% 0; border-radius: 20px"
+    >
+      <div class="text-center">
+        <p>
+          Join the 2000+ creators who are making it easy, safe, & fun for their
+          fans to support them! 🥳
+        </p>
+        <button class="btn btn-light">Create Your Free Wishlist</button>
+      </div>
+    </div>
+
+    <!-- -----------------------FREQUENTLY ASKED QUESTIONS------------------------- -->
+    <div class="container mt-5">
+      <h5>FREQUENTLY ASKED QUESTIONS</h5>
+      <div>
+        <div class="accordion" id="accordionExample3">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                How does Tributify work?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                For Creators: • Create your free wishlist • Connect your Stripe
+                account • Add items to your wishlist • Share your wishlist with
+                fans For Fans • Open a creator's wishlist • Select a gift you
+                want to buy • Checkout securely via Stripe
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Which countries does Tributify work in?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                Fans in any country around the globe can make purchases from any
+                creator's wishlist. However, only creators from the following
+                countries are able to create a wishlist: Albania, Algeria,
+                Angola, Antigua & Barbuda, Argentina, Armenia, Australia,
+                Austria, Azerbeijan, Bahamas, Bahrain, Belgium, Benin, Bhutan,
+                Bolivia, Bosnia and Herzegovina, Botswana, Brunei, Bulgaria,
+                Cambodia, Canada, Chile, Colombia, Costa Rica, Côte d'Ivoire,
+                Croatia, Cyprus, Czech Republic, Denmark, Dominican Republic,
+                Ecuador, Egypt, El Salvador, Estonia, Ethiopia, Finland, France,
+                Gabon, Gambia, Germany, Ghana, Greece, Guatemala, Guyana, Hong
+                Kong, Hungary, Iceland, Indonesia, Ireland, Israel, Italy,
+                Jamaica, Jordan, Kazakhstan, Kenya, Kuwait, Laos, Latvia,
+                Liechtenstein, Lithuania, Luxembourg, Macao, Madagascar,
+                Malaysia, Malta, Mauritius, Mexico, Moldova, Monaco, Mongolia,
+                Morocco, Mozambique, Namibia, Netherlands, New Zealand, Niger,
+                Nigeria, North Macedonia, Norway, Oman, Pakistan, Panama,
+                Paraguay, Peru, Poland, Portugal, Qatar, Romania, Rwanda, San
+                Marino, Saudi Arabia, Senegal, Singapore, Slovakia, Slovenia,
+                South Africa, South Korea, Spain, Sri Lanka, St. Lucia, Sweden,
+                Switzerland, Taiwan, Tanzania, Thailand, Trinidad & Tobago,
+                Tunisia, Turkey, United Arab Emirates, United Kingdom, United
+                States, Uruguay, Uzbekistan, Vietnam We are always working to
+                add more countries to this list.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                What are the fees on gift purchases?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                There are no fees for creators, they receive 100% of the revenue
+                generated by their wishlist. There is a flat 10% fee per gift
+                for fans.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFheadingFour"
+                aria-expanded="false"
+                aria-controls="collapseFheadingFour"
+              >
+                What items are allowed as gifts?
+              </button>
+            </h2>
+            <div
+              id="collapseFheadingFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                We allow any item that isn't illegal. As long as a gift doesn't
+                promise any services in return, it's most likely allowed. We do,
+                however, want to provide tips for our creators to make sure that
+                Stripe doesn't close their account: • Don't promise any services
+                in exchange for purchases • Don't include any nudity in item
+                photos • Don't include any explicit text in item titles
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFheadingFive"
+                aria-expanded="false"
+                aria-controls="collapseFheadingFive"
+              >
+                How does the adopt-a-bill feature work?
+              </button>
+            </h2>
+            <div
+              id="collapseFheadingFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                Creators can add bills with a daily, weekly, monthly, or yearly
+                recurrence. When a fan adopts a bill, they will continue to be
+                automatically charged for it based on that bills recurrence
+                until they cancel it - which can easily be done via the billing
+                portal.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFheadingSix"
+                aria-expanded="false"
+                aria-controls="collapseFheadingSix"
+              >
+                How secure is Tributify?
+              </button>
+            </h2>
+            <div
+              id="collapseFheadingSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSix"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                Everything on our platform is handled by Stripe. No personal
+                information or payment information is stored on our servers.
+                Creator info will not be shared with fans, and fan info will not
+                be shared with creators.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFheadingSeven"
+                aria-expanded="false"
+                aria-controls="collapseFheadingSeven"
+              >
+                When will my funds arrive?
+              </button>
+            </h2>
+            <div
+              id="collapseFheadingSeven"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSeven"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                We use Stripe to securely process payouts. When a purchase takes
+                place on your wishlist, the funds are immediately deposited into
+                your Stripe account. Stripe then automatically deposits your
+                funds into your bank account. According to Stripe, it takes 7-14
+                days for the first payout to arrive in your bank account. Though
+                most creators have reported that the first payout can arrive in
+                as fast as 2 days. Funds from following payouts usually arrive
+                in 2-5 business days.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingEight">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFheadingEight"
+                aria-expanded="false"
+                aria-controls="collapseFheadingEight"
+              >
+                What is your refund policy?
+              </button>
+            </h2>
+            <div
+              id="collapseFheadingEight"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingEight"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                Since there are no services attached to gifts, we do not allow
+                refunds - except in rare cases. Fans can email us for refund
+                inquiries. We also do our absolute best to protect our creators
+                from most types of fraud & chargebacks.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingNine">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFheadingNine"
+                aria-expanded="false"
+                aria-controls="collapseFheadingNine"
+              >
+                How can a fan cancel an adopted bill or recurring tip?
+              </button>
+            </h2>
+            <div
+              id="collapseFheadingNine"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingNine"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                Fans can easily cancel any adopted bill or recurring tip by
+                visiting the billing portal.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
